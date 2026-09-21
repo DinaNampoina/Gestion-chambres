@@ -124,5 +124,8 @@ return [
     ],
 
     'staff_code' => env('STAFF_REGISTRATION_CODE', ''),
+    'locale' => 'fr',
+    'fallback_locale' => 'en',
+    'name' => env('APP_NAME', 'Hôtel Soavadia'),
 
 ];
